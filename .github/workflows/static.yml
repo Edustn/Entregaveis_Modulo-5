@@ -16,7 +16,7 @@ jobs:
     defaults:
       run:
         shell: bash
-        working-directory: ./documentation/docusaurus-documentation
+        working-directory: ./Semana 1/PersonalPage/paginaPessoal
     steps:
       - uses: actions/checkout@v4
         with:
@@ -34,7 +34,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./Semana 1/PersonalPage/paginaPessoal
+          path: ./Semana 1/PersonalPage/paginaPessoal/build
 
   deploy:
     name: Deploy to GitHub Pages
