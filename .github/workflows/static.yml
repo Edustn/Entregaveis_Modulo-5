@@ -34,7 +34,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./Semana 1/PersonalPage/paginaPessoal/build
+          path: ./Semana 1/PersonalPage/paginaPessoal
 
   deploy:
     name: Deploy to GitHub Pages
