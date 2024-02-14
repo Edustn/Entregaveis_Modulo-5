@@ -23,8 +23,9 @@ Projeto 4: Criação de uma aplicação IoT utilizando C, C++ e célula de carga
 
 
 # Contato
-> ### [LinkedIn](https://www.linkedin.com/in/eduardo-henrique-dos-santos-8b24451b8/) 
 
-> ### Telefone: (11) 99999-9999
+### [LinkedIn](https://www.linkedin.com/in/eduardo-henrique-dos-santos-8b24451b8/) 
 
-> ### [GitHub](https://github.com/Edustn)
+### Telefone: (11) 99999-9999
+
+### [GitHub](https://github.com/Edustn)
