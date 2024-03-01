@@ -42,7 +42,7 @@ def ligar():
 @app.command()
 def desligar():
     """
-    Desliga o dispositivo na extremidade do efetuador.
+    Desliga a ventosa.
     """
     dobot.suck(False)
 
