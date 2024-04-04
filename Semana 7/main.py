@@ -19,22 +19,7 @@ except:
 
 print(robot_instance)
 
-# robot_finder = RobotFinder()
-# robot_instance = robot_finder.varrer_portas()
-# dobot = Dobot(robot_finder)
 
-elementos = [
-    {'id': 1, 'nome': 'Elemento 1'},
-    {'id': 2, 'nome': 'Elemento 2'},
-    {'id': 3, 'nome': 'Elemento 3'},
-    {'id': 4, 'nome': 'Elemento 4'},
-    {'id': 5, 'nome': 'Elemento 5'},
-    {'id': 6, 'nome': 'Elemento 6'},
-    {'id': 7, 'nome': 'Elemento 7'},
-    {'id': 8, 'nome': 'Elemento 8'},
-    {'id': 9, 'nome': 'Elemento 9'},
-    {'id': 10, 'nome': 'Elemento 10'},
-]
 
 # Retorna o index.html
 @app.route('/')
@@ -44,15 +29,6 @@ def index():
     return render_template('index.html')
 
 if robot_instance is not None:
-    # Retorna a base do header com o HTMX
-    @app.route('/pegar-header')
-    def pegar_header():
-        return '<header id="header">Header</header>'
-
-    # Retorna um conjunto de elementos no formato de uma lista de cards
-    @app.route('/pegar-elementos')
-    def pegar_elementos():
-        return render_template('elementos.html', elementos=elementos)
 
     @app.route('/print')
     def printar():
